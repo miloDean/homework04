@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Quizzz</title>
+</head>
+<body>
+<h1>Hunter's Trivial yet useful knowledge Quiz</h1>
+<div class="clock hide" id="clockBox">
+    <div id='timeRow'>
+        <div class="timerBox">
+            <h2 class='Timer'>Timer:</h2>
+            <div class="time-container">
+                <div id="values">0:00</div>
+                <div id="tbtns">
+                    <div>
+                        <button id="tbtn1">Start</button>
+                        <button id="tbtn2">Reset</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class='text'>
+            <h1>instructions:</h1>
+            <br>1. This is a test of general knowledge it covers a multitude of topics.
+            <br>2. There will be ten questions; a correct answer will add 10 seconds to your alotted time.
+            <br>3. Vice versa ten seconds will be subtracted from your time if you answer incorrectly.
+            <br>4. At the end you will be graded on time elasped and your score out of 10.
+            <br>5. to start the test, answer the example correctly or press start.
+        </div>
+    </div>
+</div>
+
+
+
+<div id='gutsRow1'>
+
+    <div class="qs">
+            <div class="questions hide" id="q0">
+                <p>example:</p>
+                    <section class="w-question">
+                    <span class="quesiton-num"></span>
+                    <h2 class="question-title">A solid that can be dissolved in a solution is?</h2>
+                        <div class="question-image">
+                            <div style="margin:0 auto;max-width:3556px;">
+                                <img class="qImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ36Uj4FfojYOFhNdYzTA02cloe3_olRDDU2m4Ht11LzqNqANtH&usqp=CAU"  alt="clutch-kit">
+                            </div>
+
+                    <div class="w-answer-btn  answer-1 " count="1">
+                    <label class="answer-btn1" value="1">
+                    <input type="radio" name="clutch" id="js-answer-btn-1" value="1">
+                    hydrophillic
+                    </label>
+                    <label class="answer-btn1" value="2">
+                    <input type="radio" name="clutch" id="js-answer-btn-2" value="2">
+                    malleable
+                    </label>
+                    <label class="answer-btn1" value="3">
+                    <input type="radio" name="clutch" id="js-answer-btn-3" value="3">
+                    soluble
+                    </label>
+                    <label class="answer-btn" value="4">
+                    <input type="radio" name="clutch" id="js-answer-btn-4" value="4">
+                    mixable
+                    </label>
+                    </div>
+                    <button id="submit0">Submit</button>
+                        </section>
+            </div>
+            <div class="questions hide" id="q1">
+                <p>Question 1:</p>
+                    <section class="w-question">
+                    <span class="quesiton-num"></span>
+                    <h2 class="question-title">what mechanical component shown here is responsible for disengaging the diaphram spring?</h2>
+                        <div class="question-image">
+                            <div style="margin:0 auto;max-width:3556px;">
+                                <img class="qImg" src="https://cdn11.bigcommerce.com/s-4f7bb/images/stencil/1280x1280/products/257/591/ACT_HDSS_Kit__36392.1320206003.jpg?c=2&imbypass=on"  alt="clutch-kit">
+                            </div>
+
+                    <div class="w-answer-btn  answer-1 " count="1">
+                    <label class="answer-btn1" value="1">
+                    <input type="radio" name="clutch" id="js-answer-btn-1" value="1">
+                    The friction disk
+                    </label>
+                    <label class="answer-btn1" value="2">
+                    <input type="radio" name="clutch" id="js-answer-btn-2" value="2">
+                    Clutch Key
+                    </label>
+                    <label class="answer-btn1" value="3">
+                    <input type="radio" name="clutch" id="js-answer-btn-3" value="3">
+                    The Pressure Plate
+                    </label>
+                    <label class="answer-btn" value="4">
+                    <input type="radio" name="clutch" id="js-answer-btn-4" value="4">
+                    Throw-out bearing
+                    </label>
+                    </div>
+                    <button id="submit1">Submit</button>
+                        </section>
+            </div>
+            <div class="questions hide" id="q2"> 
+                <p>Question 2:</p>
+                    <section class="w-question">
+                        <span class="quesiton-num"></span>
+                        <h2 class="question-title">When the countour lines of this Topographic map are in close proximity to one anouther what can you assume about the terrain it represents? </h2>
+                            <div class="question-image">
+                                <div style="margin:0 auto;max-width:3556px;">
+                                    <img class="qImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMAGh6nqrXLikpx-OwcHU0n7cmNz6vFMKsL92YzswwSKdfNEsj"  alt="topo-Map">
+                                </div>
+                
+                        <div class="w-answer-btn  answer-1 " count="5">
+                        <label class="answer-btn" data-value="1">
+                        <input type="radio" name="map" id="js-answer-btn-5" value="5">
+                        It will be very wet
+                        </label>
+                        <label class="answer-btn" data-value="">
+                        <input type="radio" name="map" id="js-answer-btn-6" value="6">
+                        It will be flat
+                        </label>
+                        <label class="answer-btn" data-value="">
+                        <input type="radio" name="map" id="js-answer-btn-7" value="7">
+                        It will be steep
+                        </label>
+                        <label class="answer-btn" data-value="">
+                        <input type="radio" name="map" id="js-answer-btn-8" value="8">
+                        It will be very rocky
+                        </label>
+                        </div>
+                        <button id="submit2">Submit</button>
+                        </section>
+            </div>
+            <div class="questions hide" id="q3"> 
+                <p>Question 3:</p>
+                    <section class="w-question">
+                            <span class="quesiton-num"></span>
+                            <h2 class="question-title">When building an off grid home which cardnal direction is most efficient at delievering consistant sunlight?</h2>
+                                <div class="question-image">
+                                    <div style="margin:0 auto;max-width:3556px;">
+                                        <img class="qImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS94p4AfF_5DFs2t1nPfKukgKZ9VijPysQl8aqH_NF6-6KUiRoL"  alt="Shome">
+                                    </div>
+                    
+                            <div class="w-answer-btn  answer-1 " count="9">
+                            <label class="answer-btn" data-value="9">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-1" value="9">
+                            North
+                            </label>
+                            <label class="answer-btn" data-value="10">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-2" value="10">
+                            South
+                            </label>
+                            <label class="answer-btn" data-value="11">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-3" value="11">
+                            East
+                            </label>
+                            <label class="answer-btn" data-value="12">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-4" value="12">
+                            West
+                            </label>
+                            </div>
+                            <button id="submit3">Submit</button>
+                        </section>
+            </div>
+            <div class="questions hide" id="q4"> 
+                <p>Question 4:</p>   
+                    <section class="w-question">
+                                <span class="quesiton-num"></span>
+                                <h2 class="question-title">Would be the correct measurement of the pictured object below?</h2>
+                                    <div class="question-image">
+                                        <div style="margin:0 auto;max-width:3556px;">
+                                            <img class="qImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTFtiIFRBx-8WDQJEz9r0y-cxsB097qD5GE1fs0idH07LgXCPc"  alt="Ruler">
+                                        </div>
+                        
+                                <div class="w-answer-btn  answer-1 " data-count="1">
+                                <label class="answer-btn" data-value="1">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-1" value="1">
+                                3" & 1/2
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-2" value="">
+                                3" & 7/16
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-3" value="">
+                                2" & 9/16
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-4" value="4">
+                                3" & 9/16
+                                </label>
+                                </div>
+                                <button id="submit4">Submit</button>
+                        </section>
+            </div>
+            <div class="questions hide" id="q5"> 
+                <p>Question 5:<p>
+                    <section class="w-question">
+                            <span class="quesiton-num"></span>
+                            <h2 class="question-title">Properly identify this plant.</h2>
+                                <div class="question-image">
+                                    <div style="margin:0 auto;max-width:3556px;">
+                                        <img class="qImg" src="https://opimedia.azureedge.net/-/media/images/men/editorial/articles/magazine-articles/1989/05-01/recognize-prevent-and-treat-poison-ivy-poison-oak-and-poison-sumac/eastern-poison-oak.jpg"  alt="Poak">
+                                    </div>
+                    
+                            <div class="w-answer-btn  answer-1 " data-count="1">
+                            <label class="answer-btn" data-value="1">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-1" value="1">
+                            Stinging Nettle
+                            </label>
+                            <label class="answer-btn" data-value="">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-2" value="2">
+                            Poison Oak
+                            </label>
+                            <label class="answer-btn" data-value="">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-3" value="">
+                            BlackBerry Bush
+                            </label>
+                            <label class="answer-btn" data-value="">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-4" value="">
+                            California live Oak
+                            </label>
+                            </div>
+                            <button id="submit5">Submit</button>
+                        </section>
+            </div>
+            <div class="questions hide" id="q6"> 
+                <p>Question 6:<p>
+                    <section class="w-question">
+                                <span class="quesiton-num"></span>
+                                <h2 class="question-title">The Position of the main pivot point will effect which suspension characteristic?</h2>
+                                    <div class="question-image">
+                                        <div style="margin:0 auto;max-width:3556px;">
+                                            <img class="qImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyG4IhMyu4brPHrUsMT3FxUB8aEx3TfzcHFJ0dUPDGYiOfvlku"  alt="bike">
+                                        </div>
+                        
+                                <div class="w-answer-btn  answer-1 " data-count="1">
+                                <label class="answer-btn" data-value="1">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-1" value="1">
+                                Axel path
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-2" value="">
+                                Anti-squat
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-3" value="">
+                                Progressivity
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-4" value="">
+                                Sag percentage
+                                </label>
+                                </div>
+                                <button id="submit6">Submit</button>
+                        </section>
+            </div>
+            <div class="questions hide" id="q7"> 
+                <p>Question 7:<p>
+                    <section class="w-question">
+                                <span class="quesiton-num"></span>
+                                <h2 class="question-title">Which Knot would be use to create a static loop at the end of a piece of cordage?</h2>
+                                    <div class="question-image">
+                                        <div style="margin:0 auto;max-width:3556px;">
+                                            <img class="qImg" src="https://external-preview.redd.it/xo4pRNc3f-PSYcN_QVXfo6Sg7Th2ulevmIzHtGTG3VM.png?auto=webp&s=c084a5813bc2c716e03987fdea893ffc8e1336ca"  alt="Knot">
+                                        </div>
+                        
+                                <div class="w-answer-btn  answer-1 " data-count="1">
+                                <label class="answer-btn" data-value="1">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-1" value="1">
+                                Half Hitch
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-2" value="">
+                                trucker's Knot
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-3" value="">
+                                Granny Knot
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-4" value="4">
+                                Bowline
+                                </label>
+                                </div>
+                                <button id="submit7">Submit</button>
+                        </section>
+            </div>
+            <div class="questions hide" id="q8"> 
+                <p>Question 8:<p>
+                    <section class="w-question">
+                                    <span class="quesiton-num"></span>
+                                    <h2 class="question-title">what would the estimated upstream value in DBs of this Network tap be?</h2>
+                                        <div class="question-image">
+                                            <div style="margin:0 auto;max-width:3556px;">
+                                                <img class="qImg" src="data:image/png;base64,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"  alt="clutch-kit">
+                                            </div>
+                            
+                                    <div class="w-answer-btn  answer-1 " data-count="1">
+                                    <label class="answer-btn" data-value="1">
+                                    <input type="radio" name="answer-btn-radio" id="js-answer-btn-1" value="1">
+                                    4Db
+                                    </label>
+                                    <label class="answer-btn" data-value="">
+                                    <input type="radio" name="answer-btn-radio" id="js-answer-btn-2" value="2">
+                                    34Db
+                                    </label>
+                                    <label class="answer-btn" data-value="">
+                                    <input type="radio" name="answer-btn-radio" id="js-answer-btn-3" value="">
+                                    3.5Db
+                                    </label>
+                                    <label class="answer-btn" data-value="">
+                                    <input type="radio" name="answer-btn-radio" id="js-answer-btn-4" value="">
+                                    14Db
+                                    </label>
+                                    </div>
+                                    <button id="submit8">Submit</button>
+                        </section>
+            </div>
+            <div class="questions hide" id="q9"> 
+                <p>Question 9:</p>
+                    <section class="w-question">
+                            <span class="quesiton-num"></span>
+                            <h2 class="question-title">What three ingredients are used to prepare a mirepoix</h2>
+                                <div class="question-image">
+                                    <div style="margin:0 auto;max-width:3556px;">
+                                        <img class="qImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJMLIcDYtyhT8Bivsj7DP8lr56NzzokeUVtIkFOeFfvUFtw7cL"  alt="Mirepoix">
+                                    </div>
+                    
+                            <div class="w-answer-btn  answer-1 " data-count="1">
+                            <label class="answer-btn" data-value="1">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-1" value="1">
+                            noodles, stock, potatoes
+                            </label>
+                            <label class="answer-btn" data-value="">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-2" value="">
+                            Fat, Milk, Flour
+                            </label>
+                            <label class="answer-btn" data-value="">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-3" value="3">
+                            Carrots, Celery, Onions
+                            </label>
+                            <label class="answer-btn" data-value="">
+                            <input type="radio" name="answer-btn-radio" id="js-answer-btn-4" value="">
+                            Garlic, Olive oil, Onions
+                            </label>
+                            </div>
+                            <button id="submit9">Submit</button>
+                        </section>
+            </div>
+            <div class="questions hide" id="q10"> 
+                <p>Question 10:</p>
+                    <section class="w-question">
+                                <span class="quesiton-num"></span>
+                                <h2 class="question-title">What is the First step of any Graffiti piece?</h2>
+                                    <div class="question-image">
+                                        <div style="margin:0 auto;max-width:3556px;">
+                                            <img class="qImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1srqq4z0hK2lXCq_gh9ooXse6DZImXzMzByQCJp4cCwk2VamM"  alt="Graff">
+                                        </div>
+                        
+                                <div class="w-answer-btn  answer-1 " data-count="1">
+                                <label class="answer-btn" data-value="1">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-1" value="1">
+                                Background
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-2" value="">
+                                Clean Tips
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-3" value="3">
+                                Sketch
+                                </label>
+                                <label class="answer-btn" data-value="">
+                                <input type="radio" name="answer-btn-radio" id="js-answer-btn-4" value="">
+                                Back-fill
+                                </label>
+                                </div>
+                                <button id="submit10">Submit</button>
+                        </section>
+            </div>
+    </div>
+
+<div class="scoreBox hide" id="box">
+     <h3>Your time & score:</h3>
+        <div class="outputbox">
+        <ul>
+            <ol id="score"+ "/10"></ol>
+            <ol id="conTimer"+ "seconds"></ol>
+        </ul>
+        </div>
+        <div class="leaderBoard">
+            <h3>leaderBoard:</h3>
+            <ol>
+                <ul>1.HMD 10/10;22s</ul>
+                <ul>2.</ul>
+                <ul>3.</ul>
+            </ol>
+            <button id="returnB">Return to Start</button>
+        </div>
+    </div>
+    
+</div>
+
+<script src="./functionality.js"></script>
+
+</body>
+</html>
